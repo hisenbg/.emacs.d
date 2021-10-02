@@ -22,3 +22,5 @@
 (global-hl-line-mode t)
 ;;禁止生成备份文件
 (setq backup-directory-alist '(("." . "~/.emacs-backups")))
+;;配置字体
+(set-default-font "mono 16")
