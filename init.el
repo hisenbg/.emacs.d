@@ -24,3 +24,22 @@
 (setq backup-directory-alist '(("." . "~/.emacs-backups")))
 ;;配置字体
 (set-default-font "mono 16")
+
+;;设置tab缩进
+(setq default-tab-width 4)
+;;取消tab建对齐的原始功能
+(setq indent-tabs-mode nil)
+
+;;php-mode默认配置
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(package-selected-packages (quote (php-mode))))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
